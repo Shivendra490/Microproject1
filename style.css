@@ -3,16 +3,17 @@
   margin: 0;
   padding: 0;
   font-family: Inter;
+  font-style: normal;
   box-sizing: border-box;
 }
 
 .main-flex-container {
   padding: 0 2rem;
   display: flex;
+  height: 70vh;
   gap: 10rem;
   justify-content: space-around;
   background-color: #ffcd9e;
-  flex-wrap: wrap;
 }
 
 .content-container {
@@ -26,7 +27,6 @@
 .heading {
   color: #282828;
   font-size: 2.25rem;
-  font-style: normal;
   font-weight: 700;
   line-height: 3.3rem;
 }
@@ -35,7 +35,6 @@
   color: #484848;
   max-width: 495px;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 500;
   line-height: 2rem;
 }
@@ -44,7 +43,6 @@
   color: #282828;
   padding: 1rem 0;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 800;
   line-height: 2rem;
 }
@@ -61,7 +59,6 @@
   border: 4px solid black;
   border-radius: 10px;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 2rem;
 }
@@ -73,23 +70,21 @@
   border-radius: 10px;
   text-align: center;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
 .spam-text {
   color: #fff;
-  padding: 0 3rem;
-  font-size: 16px;
-  font-style: normal;
+  padding: 0.2rem 0 0 3rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 25.6px;
 }
 
 .passport-image {
   text-align: center;
-  padding: 2rem 0;
+  padding-top: 2.5rem;
 }
 
 .passport-image > img {
@@ -100,11 +95,11 @@
 .footer {
   display: flex;
   color: #fff;
-  padding: 2.5rem 10rem;
+  padding: 2rem 10rem;
+  height: 30vh;
   background-color: #282828;
   justify-content: space-between;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 400;
   line-height: 2rem;
 }
@@ -116,10 +111,14 @@
 }
 
 .last-element {
-  margin-top: 1.65rem;
+  margin-top: 1.5rem;
 }
 
 .social-media-logos {
   display: flex;
   color: #ffcd9e;
+}
+
+.social-media-logos > .logo {
+  padding-top: 6px;
 }
